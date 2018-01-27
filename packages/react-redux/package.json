@@ -1,0 +1,54 @@
+{
+  "name": "@jonstuebe/react-redux",
+  "version": "0.1.0",
+  "description": "react-redux that runs on setState and the new react context api",
+  "browser": "lib/reactRedux-umd.js",
+  "main": "lib/reactRedux-cjs.js",
+  "module": "lib/reactRedux-es.js",
+  "jsnext:main": "lib/reactRedux-es.js",
+  "umdName": "reactRedux",
+  "source": "src/index.js",
+  "author": "Jonathan Stuebe <jstuebe@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonstuebe/react-redux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonstuebe/react-redux/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^22.1.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rollup": "^0.52.3",
+    "rollup-plugin-auto-external": "^1.0.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.0.0 || ^16.0.0",
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "create-react-context": "^0.1.4"
+  }
+}
