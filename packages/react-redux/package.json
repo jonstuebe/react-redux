@@ -1,6 +1,6 @@
 {
   "name": "@jonstuebe/react-redux",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react-redux that runs on setState and the new react context api",
   "browser": "lib/reactRedux-umd.js",
   "main": "lib/reactRedux-cjs.js",
