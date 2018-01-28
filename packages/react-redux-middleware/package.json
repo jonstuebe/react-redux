@@ -1,6 +1,6 @@
 {
   "name": "@jonstuebe/react-redux-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-redux that runs on setState and the new react context api",
   "browser": "lib/reactReduxMiddleware-umd.js",
   "main": "lib/reactReduxMiddleware-cjs.js",
