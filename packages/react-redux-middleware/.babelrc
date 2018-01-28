@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 3 versions"]
+        },
+        "modules": false,
+        "useBuiltIns": false
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "external-helpers",
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "presets": [["env"]],
+      "plugins": ["transform-class-properties"]
+    }
+  }
+}
