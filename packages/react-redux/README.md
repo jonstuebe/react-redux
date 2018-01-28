@@ -1,4 +1,4 @@
-`# React Redux
+# React Redux
 
 Hi, I know you're looking at the name of the repo and thinking that's the same one. Why didn't you come up with a different name? Well because it uses an almost identical api to redux and borrows the same syntax from the original react-redux package. But that's enough of that. On to details:
 

@@ -2,6 +2,20 @@
 
 This is two basic middlewares for the all React api driven [react-redux](https://github.com/jonstuebe/react-redux/tree/master/packages/react-redux)
 
+## Install
+
+npm
+
+```shell
+npm i -s @jonstuebe/react-redux-middleware
+```
+
+or yarn
+
+```shell
+yarn add @jonstuebe/react-redux-middleware
+```
+
 ## Importing
 
 ### ES6
@@ -21,20 +35,6 @@ const { logger, thunk } = require("@jonstuebe/react-redux-middleware");
 ```javascript
 var thunk = ReactReduxMiddleware.thunk;
 var logger = ReactReduxMiddleware.logger;
-```
-
-## Install
-
-npm
-
-```shell
-npm i -s @jonstuebe/react-redux-middleware
-```
-
-or yarn
-
-```shell
-yarn add @jonstuebe/react-redux-middleware
 ```
 
 ## Usage
