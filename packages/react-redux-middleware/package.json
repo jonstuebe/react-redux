@@ -1,8 +1,7 @@
 {
   "name": "@jonstuebe/react-redux-middleware",
   "version": "0.1.0",
-  "description":
-    "react-redux that runs on setState and the new react context api",
+  "description": "react-redux that runs on setState and the new react context api",
   "browser": "lib/reactReduxMiddleware-umd.js",
   "main": "lib/reactReduxMiddleware-cjs.js",
   "module": "lib/reactReduxMiddleware-es.js",
@@ -12,7 +11,9 @@
   "author": "Jonathan Stuebe <jstuebe@gmail.com>",
   "license": "MIT",
   "private": false,
-  "files": ["lib/"],
+  "files": [
+    "lib/"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "rollup -c",
